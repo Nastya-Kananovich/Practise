@@ -1,3 +1,8 @@
+//Find the most frequently occurring elements in arrays
+//Input:
+//A 5-day JSON weather forecast which consist of 5 arrays. Each of the 5 arrays includes 8 numbers which represent 3-hourly temperature forecast for a given day.
+//Output:
+//An array which includes the most frequent number (temperature) from each of the 5 arrays (days). In case there is a tie, return the value present later in a given array (day).
 function FrequentTemperature(forecast) {
     return forecast.map(day => {
         const frequencyMap = new Map();
