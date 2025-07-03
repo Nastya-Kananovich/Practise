@@ -1,5 +1,3 @@
-//Find the most frequently occurring elements in arrays
-
 function FrequentTemperature(forecast) {
     return forecast.map(day => {
         const frequencyMap = new Map();
