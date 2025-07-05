@@ -43,4 +43,7 @@ function chooseBestSum(t, k, ls) {
 
 
 const ts1 = [49, 54, 55, 56, 57];
+
+console.log(chooseBestSum(163, 3, ts1)); 
+
 console.log(chooseBestSum(163, 3, ts1)); 
